@@ -1,0 +1,79 @@
+/*body styling */
+body{
+    
+    background-image: url(image/clock.jpg);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* main section */
+#main-container{
+    border: 2px solid rgb(214, 186, 186);
+    margin-left: 50px;
+    width: 380px;
+    
+}
+/* current time */
+#currentTime{
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 5px;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: rgb(242, 248, 250);
+}
+/* current date  */
+#date{
+    color: white;
+    text-align: 130px;
+    padding-left: 130px;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 24px;
+}
+/* alarm set */
+#alarmSet{
+    padding-left: 100px;
+    padding-top: 30px;
+
+}
+/* alarm set button */
+#setBtn{
+    
+    height: 30px;
+    width: 100px;
+    font-size: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font: weight 20px;
+    background-color: white;
+}
+
+#settime{
+    padding-left: 100px;
+    padding-top: 20px;
+    visibility: hidden;
+
+}
+/* set hours minutes seconds */
+#setHr,#setMin,#setSec{
+    font-weight: 10px;
+    height: 20px;
+    width: 82px;
+    text-align: center;
+    font-size: 10px;
+}
+/* save alaram button */
+#saveAlarm{
+    height: 30px;
+    width: 90px;
+    font-size: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color: white;
+}
