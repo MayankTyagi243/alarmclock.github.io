@@ -7,13 +7,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
 }
-/* main section */
-#main-container{
-    border: 2px solid rgb(214, 186, 186);
-    margin-left: 50px;
-    width: 380px;
-    
-}
+
 /* current time */
 #currentTime{
     font-weight: bolder;
